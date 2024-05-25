@@ -1,0 +1,33 @@
+body.starting {
+	background-image: url("../img/background.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+body.starting header {
+	margin: 0px;
+	padding: 0px;
+	background-color: #e8d1ff75;
+	text-align: center;
+}
+body.starting header figure {
+	margin: 0px;
+	display: inline-flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+body.starting header figure button {
+	align-self: flex-end;
+	background-color: yellow;
+	font-size: 2em;
+	border-radius: 1em;
+	cursor: pointer;
+}
+body.starting header figure figcaption {
+	font-size: 2em;
+	color: black;
+	font-weight: bolder;
+	text-shadow: 2px 3px 3px red;
+}
